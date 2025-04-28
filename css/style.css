@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "letra1";
+    src: url(../letras/OpenSans-SemiBold.ttf);
+}
+
+
+* {
+    font-family: "letra1";
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.10em;
+}
+#inicio{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 360px;
+    border-radius: 0px 0px 45px 45px;
+
+}
+.lugar{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    top: 10px;
+}
+.busquedainicio{
+    top: 40px;
+    left: 380px;
+    width: 20px;
+    height: 20px;
+}
+.temperaturainicio{
+    color: white;
+    font-size: 60px;
+    top: 90px;
+    left: 10%;
+}
+.iclimainicio{
+    width: 100px;
+    left: 65%;
+    top: -20%;
+}
+.feelinicio{
+    color: white;
+    top: 70px;
+    left: 130px;
+    font-size: 10px;
+}
+.fechainicio{
+    font-size: 20px;
+    color: white;
+    top: 160px;
+    left: 20px;
+}
+.climainicio{
+    color: white;
+    left: 60%;
+    top: -25%;
+    width: 38%;
+    font-size: 15px;
+}
