@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+    background-color: pink;
+}
+table{
+    width: 100%;
+    border-spacing: 10px;
+}
+.today{
+  background-color:magenta;
+  border-radius: 10px;
+  width: 32%;
+  padding: 8px;
+}
+.tomorrow{
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 32%;
+    
+}
+.unosdias{
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 32%;
+}
+.windspeed{
+    
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 49%;
+}
+.rainchance{
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 49%;
+}
+.tabla2 td, tr{
+    border-radius: 10px;
+    padding: 8px;
+    background-color: violet;
+}
+button{
+    text-decoration: none;
+}
+.hourly{
+    width: 98;
+}
+#todayboton{
+    border: none;
+    background-color: magenta;
+}
